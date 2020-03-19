@@ -1,70 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+<!-- Font awesome -->
+  <script src="https://use.fontawesome.com/f98627d7a1.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap" rel="stylesheet">
+<!-- CSS link -->
+  <link rel="stylesheet" href="style.css">
+
+ <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
 
-  Try It Free
+  <header class="main-banner">
+    <div class="main-banner-top">
+      <img src="images/logo.svg" alt="huddle logo">
+      <a href="#" class="main-banner-button">Try It Free</a>
+    </div>
 
-  Build The Community Your Fans Will Love
+    <div class="main-banner-text">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+      Create connections with your users as you engage in genuine discussion.</p>
+      <a href="#" class="main-banner-bottom-button">Get Started For Free</a>
+    </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+    <img class="main-banner-image" src="images/illustration-mockups.svg" alt="illustration of desktop of mobile mockups">
+  </header>
 
-  Get Started For Free
+  <main>
+    <section class="cards">
+      <h2>Grow Together</h2>
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+  Think of the insightful conversations you miss out on with a feedback form.</p>
+      <img src="images/illustration-grow-together.svg" alt="illustration of a man and a woman with webpages in the background">
+    </section>
 
-  Grow Together
+    <section class="cards">
+      <img src="images/illustration-flowing-conversation.svg" alt="illustration of people chatting around a table">
+      <h2>Flowing Conversations</h2>
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
+  have just-in-time loading for a more natural flow.</p>
+    </section>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+      <section class="cards">
+        <h2>Your Users</h2>
+        <p>  It takes no time at all to integrate Huddle with your app's authentication solution.
+  This means, once signed in to your app, your users can start chatting immediately.</p>
+        <img src="images/illustration-your-users.svg" alt="illustration of three people holding speech bubbles">
+      </section>
+  </main>
 
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
+  <aside class="popup">
+    <h3>Ready To Build Your Community?</h3>
+    <a href="#" class="popup-button">Get Started For Free</a>
+  </aside>
 
   <footer>
+    <div class="footer-logo">
+      <img src="images/logo.svg" alt="huddle logo">
+    </div>
+
+    <table>
+      <tr>
+        <td><a href="#"><img src="images/icon-location.svg" alt="location icon"></a></td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua</td>
+      </tr>
+      <tr>
+        <td><a href="#"><img src="images/icon-phone.svg" alt="phone icon"></a></td>
+        <td>+1-543-123-4567</td>
+      </tr>
+      <tr>
+        <td><a href="#"><img src="images/icon-email.svg" alt="email icon"></a></td>
+        <td>example@huddle.com</td>
+      </tr>
+    </table>
+
+    <ul>
+      <li>About Us</li>
+      <li>What We Do</li>
+      <li>FAQ</li>
+      <li>Career</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+    </ul>
+
+    <p class="footer-copyright"> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Anthony Pässler</a>.
     </p>
   </footer>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
