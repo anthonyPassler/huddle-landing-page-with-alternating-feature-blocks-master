@@ -199,7 +199,7 @@ footer ul li {
 	margin-top: 4rem;
 	margin-bottom: 2rem;
 	width: 10rem;
-	filter: brightness(3000%);
+	filter: brightness(0) invert(1);;
 }
 .social-icons {
 	font-size: 12px;
